@@ -1,8 +1,3 @@
-// 加载css样式
-// require('../styles/main.styl');
-
-// import Worker from './worker.js';
-
 // 创建worker实列
 var worker = new Worker('./worker.js');
 
