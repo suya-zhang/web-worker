@@ -4,7 +4,7 @@
 // import Worker from './worker.js';
 
 // 创建worker实列
-var worker = new Worker('worker.js');
+var worker = new Worker('./worker.js');
 
 var calDOM = document.getElementById('calculate');
 calDOM.addEventListener('click', calculate);
